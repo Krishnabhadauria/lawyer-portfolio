@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('your.png') no-repeat center center/cover;
+    min-height: 100vh;
+    color: #fff;
+    position: relative;
+}
+
+.hero .display-4 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero .btn-primary {
+    background-color: #ff6347;
+    border-color: #ff6347;
+    padding: 10px 30px;
+    font-size: 1.25rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero .btn-primary:hover {
+    background-color: #ff4500;
+    border-color: #ff4500;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.experience-item, .service-item {
+    margin-bottom: 30px;
+}
+
+.experience-item h3, .service-item h4 {
+    color: #ff6347;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.service-item i {
+    color: #ff6347;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.service-item i:hover {
+    color: #ff4500;
+    transform: rotate(15deg);
+}
+
+.bg-light {
+    background-color: #f0f0f0 !important;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: linear-gradient(135deg, #282c34, #1c1f24);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff4500 !important;
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .hero .display-4 {
+        font-size: 4rem;
+    }
+}
+
+body {
+    cursor: url('cursor.png'), auto;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+}
