@@ -10,11 +10,11 @@ body {
 }
 
 .navbar-logo {
-    width: 50px; 
+    width: 50px; /* Adjust the width as needed */
     height: auto;
-    margin-right: 10px; 
-    background-color: white; 
-    border-radius: 5px; 
+    margin-right: 10px; /* Space between the logo and the text */
+    background-color: white; /* Ensure the background is white */
+    border-radius: 5px; /* Add some rounding if needed */
 }
 
 
