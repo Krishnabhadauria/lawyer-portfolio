@@ -7,34 +7,33 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
-    <!-- AOS Animation Library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
 
     <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src="logo.jpg" alt="Logo" class="navbar-logo">
-            <span>Ajay Pratap Singh</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
-                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="logo.jpg" alt="Logo" class="navbar-logo">
+                <span>Ajay Pratap Singh</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero d-flex align-items-center">
@@ -42,20 +41,14 @@
             <h1 class="display-4" data-aos="fade-down">Ajay Pratap Singh</h1>
             <p class="lead" data-aos="fade-down" data-aos-delay="300">Legal and Liaison Manager with 20 Years of Experience</p>
             <a href="#contact" class="btn btn-primary btn-lg mt-5" data-aos="fade-up" data-aos-delay="600">Contact Me</a>
-        </div>
-    </section>
-
-    <!-- About Me Section -->
-    <section id="about" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-5" data-aos="fade-in">About Me</h2>
             <div class="row justify-content-center">
                 <div class="col-md-8 text-center" data-aos="fade-up">
-                    <p>I am a dedicated and experienced Legal and Liaison Manager with over 20 years of expertise in land procurement, legal due diligence, and litigation management. My career spans multiple high-profile organizations where I have successfully managed complex legal operations and secured favorable outcomes for my employers.</p>
+                    <p>I am a dedicated and experienced Legal and Liaison Manager with over 20 years of expertise in land procurement, legal due diligence, and litigation management.</p>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Experience Section -->
     <section id="experience" class="py-5">
@@ -171,17 +164,12 @@
         </div>
     </footer>
 
-    <!-- Bootstrap, FontAwesome, AOS, and Animation Scripts -->
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
-        AOS.init({
-            duration: 1000, // duration of the animation in milliseconds
-            easing: 'ease-in-out', // animation easing pattern
-            once: true, // whether animation should happen only once - while scrolling down
-        });
+        AOS.init();
     </script>
 </body>
 </html>
